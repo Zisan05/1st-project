@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-con{
+    background-color: black;
+    padding:10px;
+    color: white;
+    list-style: none;
+    align-items: center;
+
+}
+.menus{
+    display: flex;  
+    justify-content:space-around;
+ 
+}
+.ok{
+    height: 100px;
+}
+.iteam{
+    margin: 10px;
+    padding: right;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    
+}
+.iteam:hover{
+    color:blue;
+}
+.banner-con{
+display: flex;
+
+}
