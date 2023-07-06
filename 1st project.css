@@ -13,6 +13,7 @@
 .menus{
     display: flex;  
     justify-content:space-around;
+    
  
 }
 .ok{
@@ -21,7 +22,7 @@
 .iteam{
     margin: 10px;
     padding: right;
-    font-size: 18px;
+    font-size: 25px;
     font-style: italic;
     cursor: pointer;
     
@@ -37,10 +38,11 @@ border: 10px solid black;
 align-items: center;
 background-image: url("background.jpg");
 background-repeat: no-repeat;
-background-size:2000px ;
+background-size:2500px ;
 }
 .big{
     font-size:90px;
+    font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 .pra{
@@ -49,7 +51,52 @@ background-size:2000px ;
     margin-bottom: 20px;
 }
 .bt{
+    padding: 20px 30px;
+    color:orange;
+    background-color:rgb(72, 3, 3);
+}
+.bt:hover{
+color:blue;
+}
+.about-con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.au{
+    text-align: center;
+    font-size: 100px;
+    color: orangered;
+    padding-bottom:100px;
+}
+.about-msg{
+font-size: 40px;
+}
+.box{
+    width: 240px;
+    height: 270px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+.ip{
+    width: 100px;
+}
+.bt1{
     padding: 10px 20px;
     color:orange;
     background-color:rgb(72, 3, 3);
+}
+.bt1:hover{
+    color:blue;}
+.service-con{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-size: 2500px;
 }
