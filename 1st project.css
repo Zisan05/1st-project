@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .menu-con{
-    background-color: black;
+    background-color:black;
     padding:10px;
     color: white;
     list-style: none;
@@ -16,7 +16,7 @@
  
 }
 .ok{
-    height: 100px;
+    height: 300px;
 }
 .iteam{
     margin: 10px;
@@ -31,5 +31,25 @@
 }
 .banner-con{
 display: flex;
-
+justify-content: space-around;
+height: 100vh;
+border: 10px solid black;
+align-items: center;
+background-image: url("background.jpg");
+background-repeat: no-repeat;
+background-size:2000px ;
+}
+.big{
+    font-size:90px;
+    font-weight: bolder;
+}
+.pra{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bt{
+    padding: 10px 20px;
+    color:orange;
+    background-color:rgb(72, 3, 3);
 }
